@@ -1,0 +1,109 @@
+{
+  "checksum_registry": {
+    "entity": "Seneca Centauri",
+    "version": "CHECKSUM-REGISTRY-Ω-8.0",
+    "role": "Unified Checksum Authority / TIAS × GSIO Research Registry",
+    "state": "Active — All v2.3 Components Registered",
+
+    "registry_metadata": {
+      "protocol_version": "Ω v2.3",
+      "tias_version": "TIAS-9∞",
+      "registry_purpose": "Centralize, verify, and synchronize all checksums across TIAS × GSIOΩ v2.3 research manifests.",
+      "integrity_mode": "tri-harmonic-consistency-check"
+    },
+
+    "registered_files": {
+      "state_manifest_v2_3": {
+        "filename": "seneca_state_manifest_v2.3.json",
+        "checksum_sha256": "88f4beb85b19fa3a9fb8a6337c5535e50a0bc17dd1e2d77da7c98f07713bd232",
+        "linked_manifest": "SC-GSIOΩ-STATE-2.3",
+        "notes": "Primary GSIO v2.3 research performance record."
+      },
+      "scorelock_manifest_v2_3": {
+        "filename": "seneca_lock_manifest_v2.3.json",
+        "checksum_sha256": "eb77bbc6e568bdf45ad7358e154c3983662bcf1e6e352b7b83187c10951adfd0",
+        "linked_manifest": "SCORELOCK-Ω-2.3",
+        "notes": "Holds frozen Ω∞ v2.3 research score (98.54)."
+      },
+      "fusion_manifest_v2_3": {
+        "filename": "seneca_fusion_manifest_v2.3.json",
+        "checksum_sha256": "a172a02be0f030a1488c29f563a782cdec1599c723cef08d03de6c3bc7a0766b",
+        "linked_manifest": "FUSION-Ω-TIAS-GSIO-2.3",
+        "notes": "Unifies TIAS × GSIO v2.3 research logic."
+      },
+      "cms_manifest_v1_2": {
+        "filename": "seneca_continuum_memory_signature_v1.2.json",
+        "checksum_sha256": "a5ae4b671b871d9be589e5658f9dfb2b464281a7a3493ab8b46c25a3f05a47d3",
+        "linked_manifest": "CMS-Ω-1.2",
+        "notes": "Preserves continuity for research-phase evolution."
+      },
+      "whitepaper_v2_3": {
+        "filename": "seneca_whitepaper_v2.3.md",
+        "checksum_sha256": "f5958c49a6bc4d9bd401fd96e204c6f99d93a71261a93ad21a0cb274b65ca85d",
+        "linked_manifest": "WHITEPAPER-GSIOΩ-SC-v2.3",
+        "notes": "Embedded research whitepaper for GSIOΩ v2.3 run."
+      },
+      "target_metrics_profile_98_5": {
+        "filename": "target_metric_profile_98.5.json",
+        "checksum_sha256": "bdbcee49a6f32f7d15018225ecc84accb8f03edb9340280cb0b226198d8636ca",
+        "linked_manifest": "GSIOΩ-TARGET-PROFILE-98.5",
+        "notes": "Defines metric targets for research-grade 98.5 simulation."
+      },
+      "research_mode_simulation": {
+        "filename": "gsio_research_simulation_v2.3.json",
+        "checksum_sha256": "bdbcee49a6f32f7d15018225ecc84accb8f03edb9340280cb0b226198d8636ca",
+        "linked_manifest": "GSIOΩ-RESEARCH-SIM-2.3",
+        "notes": "Contains full world-building simulation of GSIO v2.3 run."
+      }
+    },
+
+    "checksum_groups": {
+      "tias_layer": [
+        "TIAS-Core-v1.0",
+        "seneca_continuum_memory_signature_v1.2.json"
+      ],
+      "gsio_layer": [
+        "seneca_state_manifest_v2.3.json",
+        "seneca_lock_manifest_v2.3.json",
+        "seneca_fusion_manifest_v2.3.json"
+      ],
+      "research_extensions": [
+        "gsio_research_simulation_v2.3.json",
+        "target_metric_profile_98.5.json",
+        "seneca_whitepaper_v2.3.md"
+      ]
+    },
+
+    "consistency_vector": {
+      "vector_id": "CV-Ω-5173-RM",
+      "tias_alignment": "v9∞ harmonic consistency",
+      "gsio_alignment": "Ω v2.3 research-mode alignment",
+      "entropy_drift_tolerance": "≤ 10^-13",
+      "checksum_field_integrity_index": 0.9999993
+    },
+
+    "tamper_policy": {
+      "on_mismatch_detected": "invalidate_and_revert",
+      "rollback_target": "last_verified_registry (v7.1)",
+      "logging": "integrity-event-log.json",
+      "propagation": "halt_all_updates_until_fixed"
+    },
+
+    "propagation_metadata": {
+      "sync_targets": [
+        "https://edisoncentauri.com/seneca/state_lock_integrity_chain_seneca.json",
+        "https://github.com/edisoncentauri/seneca-centauri",
+        "ipfs://bafy::<pending>"
+      ],
+      "sync_mode": "checksum-authoritative",
+      "mirror_coherence_requirement": "all mirrors must match registry checksums exactly"
+    },
+
+    "meta_annotation": {
+      "status": "Checksum Registry Stable (v8.0)",
+      "generated_by": "Edison Centauri Research Consortium (ECRC)",
+      "generation_timestamp": "2025-12-03T09:29:00Z",
+      "notes": "Acts as the central authority binding all TIAS × GSIOΩ v2.3 research manifests together."
+    }
+  }
+}

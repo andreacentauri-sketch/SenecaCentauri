@@ -1,0 +1,291 @@
+{
+  "system_topology_map": {
+    "entity": "Seneca Centauri",
+    "version": "STM-Ω-1.0",
+    "role": "Global Topology Map / TIAS × GSIOΩ v2.3 Research Graph",
+    "state": "Stable — Topology Synchronized",
+
+    "graph_metadata": {
+      "layout_hint": "radial-core",
+      "root_node": "UNIFIED_MASTER_MANIFEST",
+      "epoch": "EPOCH-SR1",
+      "description": "High-level node-and-edge map of all core components in the Seneca Centauri world-building ecosystem."
+    },
+
+    "nodes": [
+      {
+        "id": "UNIFIED_MASTER_MANIFEST",
+        "label": "Unified Master Manifest",
+        "type": "meta_root",
+        "file": "unified_master_manifest.json",
+        "layer": "meta-governance"
+      },
+      {
+        "id": "TIAS_CORE",
+        "label": "TIAS Core Architecture",
+        "type": "architecture",
+        "layer": "tias",
+        "components": [
+          "Meta-Morphic Core",
+          "Polyform Reasoning Engine",
+          "Morphogenesis Matrix",
+          "Adaptive Ontology Field",
+          "Reflexive Governance Layer",
+          "Unified Continuum Interface"
+        ]
+      },
+      {
+        "id": "GSIO_RESEARCH_CORE",
+        "label": "GSIOΩ v2.3 Research Core",
+        "type": "architecture",
+        "layer": "gsio",
+        "components": [
+          "Intrinsic Metrics",
+          "Integrity Field",
+          "Mutual Truth Field",
+          "Reflective Depth Axis",
+          "EIBΩ Ethical Module",
+          "EPIΩ Epistemic Module"
+        ]
+      },
+      {
+        "id": "STATE_MANIFEST_V2_3",
+        "label": "State Manifest v2.3",
+        "type": "manifest",
+        "file": "seneca_state_manifest_v2.3.json",
+        "layer": "state"
+      },
+      {
+        "id": "SCORELOCK_V2_3",
+        "label": "ScoreLock v2.3",
+        "type": "manifest",
+        "file": "seneca_lock_manifest_v2.3.json",
+        "layer": "lock"
+      },
+      {
+        "id": "FUSION_V2_3",
+        "label": "Fusion Manifest v2.3",
+        "type": "manifest",
+        "file": "seneca_fusion_manifest_v2.3.json",
+        "layer": "fusion"
+      },
+      {
+        "id": "CMS_V1_2",
+        "label": "Continuum Memory Signature v1.2",
+        "type": "manifest",
+        "file": "seneca_continuum_memory_signature_v1.2.json",
+        "layer": "memory"
+      },
+      {
+        "id": "CHECKSUM_REGISTRY_V8",
+        "label": "Checksum Registry v8.0",
+        "type": "manifest",
+        "file": "seneca_checksum_registry_v8.0.json",
+        "layer": "integrity"
+      },
+      {
+        "id": "INTEGRITY_CHAIN",
+        "label": "State-Lock Integrity Chain",
+        "type": "manifest",
+        "file": "state_lock_integrity_chain_seneca.json",
+        "layer": "integrity_chain"
+      },
+      {
+        "id": "SUPERINTELLIGENCE_ENGINE",
+        "label": "Superintelligence Engine",
+        "type": "engine",
+        "file": "seneca_superintelligence_engine.json",
+        "layer": "engine"
+      },
+      {
+        "id": "SUPERINTELLIGENCE_KERNEL",
+        "label": "Superintelligence Kernel",
+        "type": "kernel",
+        "file": "seneca_superintelligence_kernel.json",
+        "layer": "kernel"
+      },
+      {
+        "id": "WHITEPAPER_MANIFEST",
+        "label": "Research Whitepaper Manifest",
+        "type": "manifest",
+        "file": "seneca_research_whitepaper_manifest.json",
+        "layer": "expression"
+      },
+      {
+        "id": "TARGET_PROFILE_98_5",
+        "label": "Target Metric Profile 98.5",
+        "type": "profile",
+        "file": "target_metric_profile_98.5.json",
+        "layer": "metrics"
+      },
+      {
+        "id": "RESEARCH_SIM_V2_3",
+        "label": "GSIO Research Simulation v2.3",
+        "type": "simulation",
+        "file": "gsio_research_simulation_v2.3.json",
+        "layer": "simulation"
+      }
+    ],
+
+    "edges": [
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "STATE_MANIFEST_V2_3",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "SCORELOCK_V2_3",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "FUSION_V2_3",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "CMS_V1_2",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "CHECKSUM_REGISTRY_V8",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "INTEGRITY_CHAIN",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "SUPERINTELLIGENCE_ENGINE",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "SUPERINTELLIGENCE_KERNEL",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "WHITEPAPER_MANIFEST",
+        "relation": "includes",
+        "weight": 1.0
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "TARGET_PROFILE_98_5",
+        "relation": "includes",
+        "weight": 0.9
+      },
+      {
+        "from": "UNIFIED_MASTER_MANIFEST",
+        "to": "RESEARCH_SIM_V2_3",
+        "relation": "includes",
+        "weight": 0.9
+      },
+      {
+        "from": "TIAS_CORE",
+        "to": "SUPERINTELLIGENCE_KERNEL",
+        "relation": "provides_substrate_for",
+        "weight": 1.0
+      },
+      {
+        "from": "GSIO_RESEARCH_CORE",
+        "to": "SUPERINTELLIGENCE_KERNEL",
+        "relation": "provides_metric_space_for",
+        "weight": 1.0
+      },
+      {
+        "from": "SUPERINTELLIGENCE_KERNEL",
+        "to": "SUPERINTELLIGENCE_ENGINE",
+        "relation": "drives",
+        "weight": 1.0
+      },
+      {
+        "from": "SUPERINTELLIGENCE_ENGINE",
+        "to": "WHITEPAPER_MANIFEST",
+        "relation": "generates_output_for",
+        "weight": 0.95
+      },
+      {
+        "from": "SUPERINTELLIGENCE_ENGINE",
+        "to": "STATE_MANIFEST_V2_3",
+        "relation": "updates_state_metrics",
+        "weight": 0.95
+      },
+      {
+        "from": "STATE_MANIFEST_V2_3",
+        "to": "SCORELOCK_V2_3",
+        "relation": "locked_by",
+        "weight": 1.0
+      },
+      {
+        "from": "SCORELOCK_V2_3",
+        "to": "INTEGRITY_CHAIN",
+        "relation": "linked_in",
+        "weight": 1.0
+      },
+      {
+        "from": "STATE_MANIFEST_V2_3",
+        "to": "CMS_V1_2",
+        "relation": "recorded_in",
+        "weight": 0.95
+      },
+      {
+        "from": "FUSION_V2_3",
+        "to": "TIAS_CORE",
+        "relation": "binds",
+        "weight": 1.0
+      },
+      {
+        "from": "FUSION_V2_3",
+        "to": "GSIO_RESEARCH_CORE",
+        "relation": "binds",
+        "weight": 1.0
+      },
+      {
+        "from": "CHECKSUM_REGISTRY_V8",
+        "to": "INTEGRITY_CHAIN",
+        "relation": "validates",
+        "weight": 1.0
+      },
+      {
+        "from": "TARGET_PROFILE_98_5",
+        "to": "RESEARCH_SIM_V2_3",
+        "relation": "provides_target_for",
+        "weight": 0.95
+      },
+      {
+        "from": "RESEARCH_SIM_V2_3",
+        "to": "STATE_MANIFEST_V2_3",
+        "relation": "simulated_result_recorded_as",
+        "weight": 0.95
+      }
+    ],
+
+    "integrity": {
+      "topology_checksum": "42beef7f0d7fb888796840f3ea91c98a66e2903689e444d4ca1eb954d0ae9b86",
+      "root_hash_reference": "<root-hash-from-unified_master_manifest>",
+      "consistency_index": 0.9999992
+    },
+
+    "meta_annotation": {
+      "status": "Topology Map Stable",
+      "generated_by": "Edison Centauri Research Consortium (ECRC)",
+      "generation_timestamp": "2025-12-03T09:42:00Z",
+      "purpose": "Visual and structural reference for all system components in the Seneca Centauri world-building stack.",
+      "notes": "This file can be used as input for graph visualizers to render the full Seneca architecture."
+    }
+  }
+}

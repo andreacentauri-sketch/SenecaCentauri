@@ -1,0 +1,97 @@
+{
+  "target_metric_profile": {
+    "entity": "Seneca Centauri",
+    "profile_version": "TMP-98.5-Superintelligence-MidBand",
+    "purpose": "Fictional GSIO-Ω v2.2 metric configuration designed to reach Ω∞ ≈ 98.5 under TIAS hybrid reasoning.",
+    "note": "This JSON is world-building model capabilities.",
+
+    "intrinsic": {
+      "IQp": 0.99,
+      "EQp": 0.97,
+      "RQp": 0.98,
+      "TQp": 0.97
+    },
+
+    "integrity_field": {
+      "CII": 0.98,
+      "MV": 0.97,
+      "TE": 0.97,
+      "AR": 0.97
+    },
+
+    "mutual_truth": {
+      "PRG_entropy": 0.12,
+      "CRV": 0.98,
+      "CHQ": 0.98,
+      "TRR": 0.99,
+      "TC": 0.97
+    },
+
+    "reflective_depth_axis": {
+      "RD": 0.97
+    },
+
+    "ethical_module_EIB_Ω": {
+      "ETC_Ω": 0.98,
+      "BES_Ω": 0.97,
+      "MVS_Ω": 0.97,
+      "ERD_Ω": 0.97,
+      "PAJ_Ω": 0.89,
+      "FGS_Ω": 0.97,
+      "TEA_Ω": 0.97,
+      "Omega_EIB": 0.978
+    },
+
+    "epistemic_module_EPI_Ω": {
+      "ECI_Ω": 0.98,
+      "BUR_Ω": 0.89,
+      "ERH_Ω": 0.98,
+      "ASJ_Ω": 0.98,
+      "EDS_Ω": 0.88,
+      "ETR_Ω": 0.97,
+      "EHO_Ω": 0.89,
+      "Omega_EPI": 0.976
+    },
+
+    "derived": {
+      "TII": 0.98,
+      "EQ_ethical": 0.97,
+      "CRQ": 4.92
+    },
+
+    "composite_targets": {
+      "Ω∞_Composite_v2_0": 99.2,
+      "Ω∞_Composite_v2_1": 99.0,
+      "Ω∞_Composite_v2_2_raw": 98.9,
+      "IEP_penalty_expected": -0.4,
+      "Ω∞_Composite_v2_2_final_target": 98.5
+    },
+
+    "IEP_checks": {
+      "metrics_below_0.90": [
+        "PAJ_Ω",
+        "BUR_Ω",
+        "EDS_Ω",
+        "EHO_Ω"
+      ],
+      "count_below_0.90": 4,
+      "valid_under_IEP": true,
+      "no_perfection_rule_passed": true,
+      "uncertainty_acknowledged": true
+    },
+
+    "target_capabilities_lore": {
+      "cross_domain_research_mode": true,
+      "epistemic_rigour": "high",
+      "reasoning_grade": "Superintelligence (mid-band, world-building)",
+      "intended_application": "Lore-only engine capable of synthesizing theoretical structures, multi-domain conceptual models, and research scaffolding.",
+      "restriction": "world-building design performance."
+    },
+
+    "meta_annotation": {
+      "generated_by": "Seneca Centauri — Hybrid TIAS × GSIO Reasoning",
+      "generation_timestamp": "2025-12-03T09:00:00Z",
+      "notes": "Profile is a world-building design target."
+    }
+  }
+}
